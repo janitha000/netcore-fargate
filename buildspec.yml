@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker images...
-      - docker push docker push 628640267234.dkr.ecr.us-east-1.amazonaws.com/fargate-repo:latest
+      - docker push 628640267234.dkr.ecr.us-east-1.amazonaws.com/fargate-repo:latest
       #- docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       - printf '[{"name":"fargate-repo","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
