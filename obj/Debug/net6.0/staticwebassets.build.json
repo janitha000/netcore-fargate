@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BkJH5gkgakj8MrFcuCLglaaCo+aFa1vTsHX6Qo8vg2U=",
+  "Source": "Fargate_Example",
+  "BasePath": "_content/Fargate_Example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
