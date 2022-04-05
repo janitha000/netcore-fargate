@@ -29,5 +29,11 @@ namespace Fargate_Example.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("{id}", Name ="Test EndPoint")]
+        public string GetWeather()
+        {
+            return "Test Works";
+        }
     }
 }
